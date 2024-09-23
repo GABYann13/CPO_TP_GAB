@@ -5,8 +5,6 @@ Septembre 2024
  */
 package exo2;
 
-import java.util.Scanner;
-
 /**
  *
  * @author yann
