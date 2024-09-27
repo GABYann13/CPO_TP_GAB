@@ -21,6 +21,8 @@ public class ManipNombreInt {
     int somme;
     int produit;
     int difference;
+    int quotient;
+    int reste;
     Scanner sc = new Scanner(System.in);
     System.out.println("\n Entrer un entier :");
     a=sc.nextInt();
@@ -31,6 +33,11 @@ public class ManipNombreInt {
     produit=a*b;
     difference=a-b;
     System.out.println("\n Voici la somme: " + somme + ", la difference: " + difference + " et le produit: " + produit + " de a et b.");
+    quotient= a/b;
+    reste = a%b;
+    System.out.println("\n Voici le quotient: " + quotient + ", le reste du quotient: " + reste);
+    
+    
     }
    
 }
